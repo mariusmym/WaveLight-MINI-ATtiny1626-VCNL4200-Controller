@@ -116,6 +116,10 @@ Full BOM in the **GERBER, BOM, PNP** folder.
 
 If 0402 parts and a QFN sound like a nightmare, the original [WaveLight](https://github.com/mariusmym/WaveLight-ATtiny1614-VCNL4200-Controller) uses an SOIC-14 ATtiny1614 and 0603 parts, and comes in three sensor orientations. Same features, friendlier to soldering irons.
 
+## If you want to edit the PCB
+ 
+**Project can also be found here:** [https://oshwlab.com/mariusmym/attiny1616_vcnl4200_rgb_controller](https://oshwlab.com/mariusmym/attiny1616_vcnl4200_rgb_controller)
+
 
 ## License 
 
