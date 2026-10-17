@@ -47,7 +47,7 @@ The ATtiny reads both values in real time and decides when the WS2812B strip sho
 
 1. **A stencil is pretty much mandatory.** The ATtiny1626 is a QFN with 0.4mm pitch pins and a thermal pad underneath, and all the passives are 0402. Hand-soldering it with an iron is somewhere between "extremely hard" and "a story you'll tell at parties". Use a **stencil, solder paste and a hot plate** (or hot air) – or let the PCB fab assemble it for you.
 
-2. **You need a UPDI programmer to upload the sketch.** The ATtiny1626 doesn't do USB, it only speaks UPDI. Any SerialUPDI programmer works, including [this one](https://github.com/mariusmym/Serial-UPDI-Programmer-USB-C-) (shameless self-promotion 😎).
+2. **You need a UPDI programmer to upload the sketch.** The ATtiny1626 doesn't do USB, it only speaks UPDI. Any SerialUPDI programmer works, including [this one](https://github.com/mariusmym/Serial-UPDI-Programmer-USB-C-) ( 😎).
 
 3. **Use the 3V3 / GND / UPDI pads for programming.** Match the voltage on your programmer to the 3V3 pad, otherwise the board will get more voltage than it asked for. Program it **before** you solder it to the strip – it's a lot easier to reach the pads that way.
 
