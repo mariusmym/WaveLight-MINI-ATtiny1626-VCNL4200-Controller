@@ -75,7 +75,7 @@ All the "knobs" are at the top of the sketch:
 | Setting | Default | What it does |
 |---|---|---|
 | `NUMLEDS` | 44 | Number of LEDs in your strip |
-| `LED_PIN` | `PIN_PA7` | Data pin for the strip – **check it against the MINI schematic** |
+| `LED_PIN` | `PIN_PA7` | Data pin for the strip  |
 | `PROXIMITY_THRESHOLD` | 30 | How close you need to be. Higher = closer (≈180 at 30cm, ≈40 at 60cm, ≈12 at 100cm) |
 | `TOUCH_THRESHOLD` | 1000 | Value for a "touch" (a few mm from the sensor) |
 | `AMBIENT_LIGHT_THRESHOLD` | 2 | How dark it must be. With the ceiling lights on it's 11000+, TV-only ≈13, minimum is 2 |
@@ -93,17 +93,16 @@ Pro tip: if your LEDs turn on while the room is still bright enough to read a bo
 4. Under **Tools → Programmer** choose a **SerialUPDI** option (230400 baud is a good start).
 5. Connect the programmer to the **3V3 / GND / UPDI** pads, open the sketch from the **SKETCH** folder, set `NUMLEDS` for your strip, and use **Upload Using Programmer** (Ctrl+Shift+U).
 
-If the strip lights up when you wave at it, congratulations: you've just built a very polite (and very small) room.
 
 ## Main components 
 
 | Part | Component | LCSC |
 |---|---|---|
-| MCU | ATTINY1626-MU (QFN-20) | [C5227676](https://www.lcsc.com/product-detail/C5227676.html) |
-| Light & proximity sensor | VCNL4200 | [C510773](https://www.lcsc.com/product-detail/C510773.html) |
-| Level shifter | SN74LVC1T45DBVR | [C7843](https://www.lcsc.com/product-detail/C7843.html) |
-| LDO 3.3V | AP2112K-3.3TRG1 | [C51118](https://www.lcsc.com/product-detail/C51118.html) |
-| P-MOSFET | SI2301BDS-T1-GE3 | [C558242](https://www.lcsc.com/product-detail/C558242.html) |
+| MCU | ATTINY1626-MU (QFN-20) | C5227676 |
+| Light & proximity sensor | VCNL4200 | C510773 |
+| Level shifter | SN74LVC1T45DBVR | C7843 |
+| LDO 3.3V | AP2112K-3.3TRG1 | C51118 |
+| P-MOSFET | SI2301BDS-T1-GE3 | C558242 |
 
 Full BOM in the **GERBER, BOM, PNP** folder.
 
@@ -118,9 +117,6 @@ Full BOM in the **GERBER, BOM, PNP** folder.
 
 If 0402 parts and a QFN sound like a nightmare, the original [WaveLight](https://github.com/mariusmym/WaveLight-ATtiny1614-VCNL4200-Controller) uses an SOIC-14 ATtiny1614 and 0603 parts, and comes in three sensor orientations. Same features, friendlier to soldering irons.
 
-## If you want to edit the PCB
-
-**Project can also be found here:** https://oshwlab.com/mariusmym/PROJECT-LINK-HERE
 
 ## License 
 
