@@ -1,6 +1,7 @@
 # WaveLight MINI : ATtiny1626 + VCNL4200 WS2812B LED Controller
 
 The little brother of [WaveLight](https://github.com/mariusmym/WaveLight-ATtiny1614-VCNL4200-Controller), shrunk down to **9.5mm wide** – exactly the width of an LED strip. The pads line up with the strip's own solder pads, so you solder the controller **straight onto the start of the strip**. No wires, no connectors, no hiding place needed. 
+
 It just looks like the strip grew a brain.
 
 Wave your hand (or walk by), the lights come on. Walk away, they go off.
